@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "AI English Tutor",
+    "slug": "ai-english-tutor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0D1B2A",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.echotutor.app",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "This app uses the microphone to allow you to speak with the AI tutor.",
+        "NSSpeechRecognitionUsageDescription": "This app uses speech recognition to convert your speech to text."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0D1B2A"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.echotutor.app"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "@react-native-voice/voice"
+    ]
+  }
+}
