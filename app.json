@@ -31,6 +31,11 @@
     },
     "plugins": [
       "@react-native-voice/voice"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "dd687caa-0931-45ee-9a30-3abdaa2cf8f9"
+      }
+    }
   }
 }
